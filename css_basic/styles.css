@@ -1,0 +1,30 @@
+main{
+  display:flex;
+  flex-direction: row;
+  flex:auto;
+}body {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  background: linear-gradient(
+    to right,
+    rgb(233, 194, 200) 0%,
+    rgb(233, 194, 200) 62.8%,
+    white 37.2%,
+    white 100%
+  );
+  }
+h1, h2, h3 , h4 ,ul, li
+{
+color: navy;
+}
+
+article{
+  flex:2;
+  overflow-y:auto;
+}
+aside{
+  flex:1;
+  overflow-y:auto;
+  
+}
