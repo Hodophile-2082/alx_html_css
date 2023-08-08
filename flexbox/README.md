@@ -103,3 +103,5 @@ Target .nav-item + .nav-item inside nav class
 Move the margin declaration from .nav .nav-item inside the new selector.
 In the variables section
 Change the value of the variable nav-item-margin to be 0 0 0 2rem
+TASK 8:
+In 7-styles.css, inside the /* Header section, in the header-container class selector, set the property align-items to center
