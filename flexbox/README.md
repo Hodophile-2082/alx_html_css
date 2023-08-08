@@ -35,3 +35,36 @@ Add the class section-testimonial
 In the outermost section tag for contact
 
 Add the class section-contact
+ TASK 3:
+ In your CSS file:
+
+Before /*** 4. CARD ***/, add a new comment: /* Section Latest news ============================= */
+
+Under that comment section, target the row class inside section-latest-news class
+
+Property: flex-direction, Value: row-reverse
+The Latest news should appear in a reverse order.
+ TASK 4:
+ In the Services section of 3-index.html, remove the second ul and put the 3 lielements under the first ul
+
+Now, in your CSS file, before /*** 4. CARD ***/, add a new comment: /* Section SERVICES ============================= */
+
+Under that comment section, add a new selector targeting the row class inside the section-services class
+
+Property: flex-wrap, Value: wrap
+ TASK 5:
+ In 4-styles.css file, within the Grid section
+
+In .col-1-3 selector
+
+Replace the current width with calc((100% / 3) - 2rem)
+In .col-1-2 selector
+
+Replace the current width with calc((100% / 2) - 2rem)
+In [class*='col-']
+
+Remove the padding declaration
+Set Property: margin to 1rem
+In ul.row declaration
+
+Replace the current margin with -1rem
