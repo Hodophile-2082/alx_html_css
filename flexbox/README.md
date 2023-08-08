@@ -13,3 +13,25 @@ Property: display, Value: flex
 Entirely remove the row::after declaration
 Remove the float: left inside [class*='col-']
 => All elements should appear same than before using the float
+TASK2:
+I have followed the following instructions:
+Using the files from the previous task as the base for this task:
+
+In the outermost section tag for services
+
+Add the class section-services
+In the outermost section tag for works
+
+Add the class section-works
+In the outermost section tag for about
+
+Add the class section-about-us
+In the outermost section tag for latest_news
+
+Add the class section-latest-news
+In the outermost section tag for testimonial
+
+Add the class section-testimonial
+In the outermost section tag for contact
+
+Add the class section-contact
